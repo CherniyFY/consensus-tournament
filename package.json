@@ -1,0 +1,21 @@
+{
+  "name": "consensus-tournament",
+  "version": "0.1.0",
+  "description": "Immutable double-elimination brackets with two-voter consensus",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "exports": "./src/index.ts",
+  "files": [
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "example": "node --experimental-strip-types examples/basic.mjs"
+  }
+}
